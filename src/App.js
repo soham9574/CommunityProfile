@@ -1,24 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
+import './App.css';
+import Footer from './Components/Footer';
+import Navbar from './Components/Navbar';
+import ProductCarousel from './Components/ProductCarousel';
+import ProfileCard from './Components/Profile';
+import Card from './Components/Card';
+import Useful from './Components/Useful';
+function App() { 
+  
+  // Add more card data as needed
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <>
+    <Navbar/>
+    <ProfileCard/>
+    <Useful/>
+     <Card/>
+    <ProductCarousel/>
+    <Footer/>
+   </>
   );
 }
 

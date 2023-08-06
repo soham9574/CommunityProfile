@@ -1,0 +1,65 @@
+/** 
+        <div className="container maincontainer">
+             <div className="avator">
+                <img className='avator' src="https://png.pngtree.com/png-vector/20190710/ourmid/pngtree-user-vector-avatar-png-image_1541962.jpg" alt="" />
+             </div>
+             <div className="info">
+                <div className="name">
+                    
+                </div>
+                <br />
+                <div className="desc">
+                   
+                </div>
+             </div>
+         </div>
+**/
+
+
+
+
+.maincontainer{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  /* justify-content: center; */
+  align-items: center;
+  background-color: rgb(141, 138, 134);
+  height: 60vh;
+  /* flex-wrap: wrap; */
+}
+.info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* justify-content: space-between; */
+  float: right;
+  height: 90%;
+  width: 60vw;
+  background-color: rgb(16, 253, 253);
+  margin: 8px;
+}
+.avator{
+  float: left;
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+
+}
+  /* Responsive Styles */
+  @media screen and (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      height: 120vh;
+      width: 95%;
+    }
+    
+    .avatar {
+      margin-right: 0;
+      margin-bottom: 30px;
+      margin-top: 20px
+      ;
+    }
+  }
+  

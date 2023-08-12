@@ -32,12 +32,7 @@ const ProductCarousel = () => {
 };
 
 const carouselStyles = {
-  // centerplace:{
-  //   display: "flex",
-  //   justifyContent: "center",
-  //   width: "100vw",
-  //   height:""
-  // },
+
   container: {
     fontFamily: "Open Sans, sans-serif",
     background: "#e2eaef",

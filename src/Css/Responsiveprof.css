@@ -1,0 +1,6 @@
+@media screen and (max-width: 768px) {
+    .myClass {
+        display: flex;
+        flex-direction: row;
+      }
+  }

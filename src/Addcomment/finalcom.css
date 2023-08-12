@@ -1,0 +1,18 @@
+.comsec{
+ background-color: rgb(18, 16, 15);
+ height: 42vh;
+ display: flex;
+ align-items: center;
+ justify-content:center ;
+ flex-direction: column;
+}
+.btnflex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.input{
+    width: 62vw;
+    /* border-radius: 30%; */
+}

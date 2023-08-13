@@ -84,9 +84,9 @@ const Carduser = (props) => {
       <div style={userStyles.userInfo} className="user-info">
         <h3 style={userStyles.name}>{props.name}</h3>
         <p style={userStyles.contact}>{props.gmail}</p>
-        <p style={userStyles.contact}>{props.contact}</p>
+        {/* <p style={userStyles.contact}>{props.contact}</p> */}
         <button style={userStyles.button} value={props.product} type="button">
-          Project: 1
+          Dummy btn
         </button>
       </div>
     </div>

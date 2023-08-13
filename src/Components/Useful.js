@@ -9,7 +9,7 @@ const Useful = () => {
   return (
     <div style={carouselStyles.centerplace}>
     <div style={carouselStyles.container}>
-      <h2 style={carouselStyles.title}>Our <b>Achievements</b></h2>
+      <h2 style={carouselStyles.title}> <b>Products Recycled</b></h2>
       <div style={carouselStyles.carousel}>
       {Object.values(productsObject).map((product) => (
           <div key={product.id} style={carouselStyles.item}>
@@ -59,7 +59,8 @@ const carouselStyles = {
     padding: "0 70px",
     display: "flex",
     flexWrap: "wrap",
-    justifyContent: "space-between",
+    justifyContent: "center",
+    gap:"20x",
     alignItems:"center",
   },
   item: {
@@ -68,6 +69,9 @@ const carouselStyles = {
     textAlign: "center",
     overflow: "hidden",
     marginBottom: "30px",
+    marginRight: "10px",
+    marginLeft:"10px",
+    // gap:"20x",
     flex: "0 0 calc(25% - 30px)",
   },
   thumbWrapper: {

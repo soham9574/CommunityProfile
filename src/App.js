@@ -17,9 +17,9 @@ function App() {
   return (
    <>
   {/* <Finalpage/> */}
-  {/* <Finaluserprof/> */}
+  <Finaluserprof/>
   {/* <Productcard  name ="MAIN-TOPIC" gmail=' Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, quam.' product='Products 1' /> */}
-   <Finalcom/>
+   {/* <Finalcom/> */}
    </>
   );
 }

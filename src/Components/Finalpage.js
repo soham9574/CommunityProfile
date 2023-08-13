@@ -8,12 +8,12 @@ import Useful from './Useful';
 function Finalpage(){
     return(
         <>
-        <Navbar/>
+       
     <ProfileCard/>
     <Useful/>
      <Card/>
-    <ProductCarousel/>
-    <Footer/>
+   
+   
     </>
     )
 }

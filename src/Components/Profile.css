@@ -1,21 +1,25 @@
 .profile-main{
     background-color: whitesmoke;
-    height: 45vh;  
+    height: 50vh;  
 }
 .profile-main .profile-sub{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    display: flex;
-    align-items: center;
+    flex-direction: row;
     justify-content: center;
-    word-wrap: break-word;
+    align-items: center;
+    gap: 40px;
+    padding: 40px 0 0;
+    @media only screen and (max-width: 995px){
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    /* word-wrap: break-word; */
 }
 .profile-main .profile-sub .profile-image{
-    max-width: 20%;
-    margin: 20px;
+    
+    margin: auto 20px;
 }
 .profile-main .profile-sub .profile-image img{
     width: 200px;
@@ -25,30 +29,51 @@
 .profile-main .profile-sub .profile-descrip{
     max-width:70% ;
     text-align: left;
-    margin: 20px;
+    margin: 0px 20px 0 0;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    row-gap: 20px;
+    @media only screen and (max-width: 768px){
+        align-items: center;
+        margin: auto;
+    }
+    align-items: flex-start;
 }
 .profile-name{
-    color: green;
+    color: rgb(55, 231, 55);
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: 500;
+    font-size: 24px;
+    font-weight: 700;
+    @media only screen and (max-width: 768px){
+        text-align: center;
+    }
+    text-align: left;
 }
 .profile-info{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 20px;
+    font-weight: 500;
+    @media only screen and (max-width: 768px){
+        text-align: center;
+    }
+    text-align: left;
 }
 .profile-loc{
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 10px;
+    @media only screen and (max-width: 768px){
+        text-align: center;
+    }
+    text-align: left;
 }
+
 @media screen and (max-width: 866px) {
     .profile-main {
         height: 75vh;
@@ -86,7 +111,7 @@
   }
   @media screen and (max-width: 506px) {
     .profile-main {
-        height: 82vh;
+        height: 75vh;
     }
     .profile-name{
        
@@ -108,7 +133,7 @@
   }
   @media only screen and (max-width: 480px) and (min-width: 200px)  {
     .profile-main {
-        height: 82vh;
+        height: 95vh;
     }
     .profile-name{
        
@@ -121,4 +146,10 @@
     .profile-loc{
         font-size: 16px;
     }
+  }
+  @media only screen and (max-width: 998px) and (min-width: 659px)  {
+    .profile-main {
+        height: 72vh;
+    }
+   
   }

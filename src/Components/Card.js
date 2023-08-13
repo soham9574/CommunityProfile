@@ -83,7 +83,7 @@
               textTransform: "uppercase",
               position: "relative",
               marginBottom: "60px",
-            }}><b>PRODUCTS WORK ON</b></h2>
+            }}><b>Our Products</b></h2>
           </div>
           <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center' }}>
             {getVisibleCards().map((card, index) => (
@@ -99,7 +99,7 @@
                 boxShadow: '0 2px 4px rgba(0, 0, 0, 0.1)',
                 transition: 'box-shadow 0.3s ease',
                 ':hover': {
-                  boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)',
+                  boxShadow: '0 4px 8px rgba(55,231,55, 0.7)',
                 },
               }}>
               {/* <br /> */}
